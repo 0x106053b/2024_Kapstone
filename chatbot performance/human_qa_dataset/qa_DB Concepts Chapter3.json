@@ -1,0 +1,27 @@
+[
+    {
+        "id" : 1,
+        "question" : "Who invented SQL standard when?",
+        "groudTruth" : "In 1986, the American National Standards Institute (ANSI) and the International Organization for Standardization (ISO) published an SQL standard, called SQL-86"
+    },
+    {
+        "id" : 2,
+        "question" : "How data integrity can be implemented in SQL language?",
+        "groudTruth" : "The SQL DDL includes commands for specifying integrity constraints that the data stored in the database must satisfy. Updates that violate integrity constraints are disallowed."
+    },
+    {
+        "id" : 3,
+        "question" : "What does char(n) and varchar(n) mean?",
+        "groudTruth" : "char(n) is a fixed-length character string with user-specified length n. The full form, character, can be used instead. On the other hand, varchar(n) A variable-length character string with user-specified maximum length n. The full form, character varying, is equivalent."
+    },
+    {
+        "id" : 4,
+        "question" : "To remove a table from SQL database, which sql query will be used?",
+        "groudTruth" : "We can use 'drop table r' to drop the specified table r from the database."
+    },
+    {
+        "id" : 5,
+        "question" : "Can select clause in sql contain arithmetic expressions like '+', '-' or '/'?",
+        "groudTruth" : "Yes. the artihmetic expressions with select clause let constant or attributes of tuples be operated."
+    }
+]

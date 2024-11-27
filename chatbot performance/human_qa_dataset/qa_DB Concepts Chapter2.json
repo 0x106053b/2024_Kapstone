@@ -1,0 +1,27 @@
+[
+    {
+        "id" : 1,
+        "question" : "A relational database consists of WHAT?",
+        "groudTruth" : "A relational database consists of collection of tables, each of which is assigned a unique name."
+    },
+    {
+        "id" : 2,
+        "question" : "As we see in figure 2.1, The instructor relation, which name has the highest salary?",
+        "groudTruth" : "In instructor relation, the name row with name 'Wu' has the highest salary."
+    },
+    {
+        "id" : 3,
+        "question" : "What is domain?",
+        "groudTruth" : "domain is a set of permitted values for each attribute of a relation."
+    },
+    {
+        "id" : 4,
+        "question" : "What concept of a programming language does the relation scheme correspond to?",
+        "groudTruth" : "The concept of a relation schema corresponds to the programming-language notion of type definition."
+    },
+    {
+        "id" : 5,
+        "question" : "In the figure 2.5, What set of columns (attributes) is a department relation made up of?",
+        "groudTruth" : "The department relation consists of attributes named dept_name, building, budget."
+    }
+]

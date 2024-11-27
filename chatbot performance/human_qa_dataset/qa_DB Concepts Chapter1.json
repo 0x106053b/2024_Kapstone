@@ -1,0 +1,82 @@
+[
+    {
+        "id" : 0,
+        "question" : "What is definition of DBMS?",
+        "groudTruth" : "A database-management system (DBMS) is a collection of interrelated data and a set of programs to access those data."
+    },
+    {
+        "id" : 1,
+        "question" : "Please tell me some representative examples of Database applications.",
+        "groudTruth" : "Database can be used for Enterprise Information, Banking and Finance, Universities, Airlines and Telecommunication so on."
+    },
+    {
+        "id" : 2,
+        "question" : "What kinds of data storage is used in 1950s?",
+        "groudTruth" : "Magnetic tapes were developed for data storage. Data processing tasks such as payroll were automated, with data stored on tapes."
+    },
+    {
+        "id" : 3,
+        "question" : "Relational model concept is defined by whom? Please tell me his/her name.",
+        "groudTruth" : "A landmark paper by Codd [1970] defined the relational model and nonprocedural ways of querying data in the relational model, and relational databases were born."
+    },
+    {
+        "id" : 4,
+        "question" : "What is DML and DDL?",
+        "groudTruth" : "A data-manipulation language (DML) is a language that enables users to access or manipulate data. And a data-definition language (DDL) is a language for specifying the database schema and as well as other properties of the data."
+    },
+    {
+        "id" : 5,
+        "question" : "Please briefly introduce the disadvantages of managing structural data using the file system.",
+        "groudTruth" : "File system may have data redundancy and inconsistency, difficulty in accessing data, data isolation problem, integrity problem, atomcity problem, and concurrent access anomalies."
+    },
+    {
+        "id" : 6,
+        "question" : "Please tell me specifically about the atomity problem in the file system.",
+        "groudTruth" : "A computer system, like any other device, is subject to failure. In many applications, it is crucial that, if a failure occurs, the data be restored to the consistent state that existed prior to the failure. But usual file system doesn't guarantee this atomcity."
+    },
+    {
+        "id" : 7,
+        "question" : "how database system hides certain details of how data are stored?",
+        "groudTruth" : "Database system provides users with an abstract view of the data."
+    },
+    {
+        "id" : 8,
+        "question" : "Please briefly introduce the 3 levels of data abstraction.",
+        "groudTruth" : "Database system hides the complexity from users through several levels of abstraction, to simplify users' interactions with the system. This abstraction hierarchy consists of physical level, logical level, and view level."
+    },
+    {
+        "id" : 9,
+        "question" : "What is the characteristic of logical level in data abstraction?",
+        "groudTruth" : "Logical level describes what data are stored in the database, and what relationships exist among those data. The logical level thus describes the entire database in terms of a small number of relatively simple structures. Although implementation of the simple structures at the logical level may involve complex physical-level structures, the user of the logical level does not need to be aware of this complexity. This is referred to as physical data independence."
+    },
+    {
+        "id" : 10,
+        "question" : "What is the other name for several schemas at the view level?",
+        "groudTruth" : "We can call schemas at the view level as 'subschemas' instead."
+    },
+    {
+        "id" : 11,
+        "question" : "What is physical data indenpendence?",
+        "groudTruth" : "e physical schema is hidden beneath the logical schema, and can usually be changed easily without affecting application programs."
+    },
+    {
+        "id" : 12,
+        "question" : "What is the differences between procedural DMLs and Declarative DMLs?",
+        "groudTruth" : "Procedural DMLs require a user to specify what data are needed and how to get those data. But Declarative DMLs (also referred to as nonprocedural DMLs) require a user to specify what data are needed without specifying how to get those data."
+    },
+    {
+        "id" : 13,
+        "question" : "As we can see in the 'department' table, What is the dept_name that belongs to 'Taylor' building?",
+        "groudTruth" : "Comp. Sci department and Elec. Eng. department belongs to the building named 'Taylor'."
+    },
+    {
+        "id" : 14,
+        "question" : "As we can see the 'instructor' table, How many professor data are stored in the instructor table?",
+        "groudTruth" : "The information of 12 professors is stored in the instructor table."
+    },
+    {
+        "id" : 15,
+        "question" : "In the department table, which dept_name is with budget over 90000?",
+        "groudTruth"  : "3 dept_name have more than 9000 budget."
+    }
+]
