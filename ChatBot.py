@@ -106,4 +106,4 @@ if __name__ == "__main__":
     bot = ChatBot()
     print("====================================================")
     print(bot.answer("Hello!"))
-    print(bot.answer("Tell me what year America was discovered."))
+    print(bot.answer("What is DBMS?"))

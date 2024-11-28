@@ -50,3 +50,7 @@ class EmbeddingsManager:
             print(f"Document '{document_id}' loaded and added to embeddings.")
         except Exception as e:
             print(f"Failed to load and add document '{document_id}': {str(e)}")
+
+if __name__ == "__main__":
+    em = EmbeddingsManager()
+    em.load_and_add_document(0, "DB Concepts Chapter1.pdf")
