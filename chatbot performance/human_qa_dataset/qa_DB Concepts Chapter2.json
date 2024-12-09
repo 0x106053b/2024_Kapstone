@@ -23,5 +23,55 @@
         "id" : 5,
         "question" : "In the figure 2.5, What set of columns (attributes) is a department relation made up of?",
         "groudTruth" : "The department relation consists of attributes named dept_name, building, budget."
+    },
+    {
+        "id" : 6,
+        "question" : "What is difference between superkey and candidate keys?",
+        "groudTruth" : "A superkey may contain extraneous attributes. If K is a superkey, then so is any superset of K. We are often interested in superkeys for which no proper subset is a superkey. Such minimal superkeys are called candidate keys"
+    },
+    {
+        "id" : 7,
+        "question" : "What is referential integrity constraint?",
+        "groudTruth" : "A referential integrity constraint requires that the values appearing in specified attributes of any tuple in the referencing relation also appear in specified attributes of at least one tuple in the referenced relation."
+    },
+    {
+        "id" : 8,
+        "question" : "Can we find informations about referential integrity constraints in schema diagrams?",
+        "groudTruth" : "Referential integrity constraints other than foreign key constraints are not shown explicitly in schema diagrams."
+    },
+    {
+        "id" : 9,
+        "question" : "In what kind of query language the user makes the DBMS system operate to compute the desired result?",
+        "groudTruth" : "In a procedural language, the user instructs the system to perform a sequence of operations on the database to compute the desired result."
+    },
+    {
+        "id" : 10,
+        "question" : "Do two relations need set of same attributes to make natural join operation?",
+        "groudTruth" : "All such matching pairs of tuples are present in the join result. In general, the natural join operation on two relations matches tuples whose values are the same on all attribute names that are common to both relations."
+    },
+    {
+        "id" : 11,
+        "question" : "Do two relations need set of same attributes to make cartesian product operation?",
+        "groudTruth" : "Output all pairs of rows from the two input relations (regardless of whether or not they have the same values on common attributes)"
+    },
+    {
+        "id" : 12,
+        "question" : "Can subset of candidate key be a superkey?",
+        "groudTruth" : "A candidate key is a minimal superkey, that is, a set of attributes that forms a superkey, but none of whose subsets is a superkey."
+    },
+    {
+        "id" : 13,
+        "question" : "Describe the differences in meaning between the terms relation and relation schema.",
+        "groudTruth" : "The concept of a relation corresponds to the programming-language notion of a variable, while the concept of a relation schema corresponds to the programming-language notion of type definition."
+    },
+    {
+        "id" : 14,
+        "question" : "What does 'atomic domain' mean?",
+        "groudTruth" : "A domain is atomic if elements of the domain are considered to be indivisible units. For example, suppose the table instructor had an attribute phone number, which can store a set of phone numbers corresponding to the instructor. Then the domain of phone number would not be atomic, since an element of the domain is a set of phone numbers, and it has subparts, namely the individual phone numbers in the set."
+    },
+    {
+        "id" : 15,
+        "question" : "How to know the primary key among the attributes of a relation in a schema diagram?",
+        "groudTruth" : "Primary key attributes are shown underlined."
     }
 ]

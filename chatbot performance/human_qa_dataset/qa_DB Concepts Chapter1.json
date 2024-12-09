@@ -1,10 +1,5 @@
 [
     {
-        "id" : 0,
-        "question" : "What is definition of DBMS?",
-        "groudTruth" : "A database-management system (DBMS) is a collection of interrelated data and a set of programs to access those data."
-    },
-    {
         "id" : 1,
         "question" : "Please tell me some representative examples of Database applications.",
         "groudTruth" : "Database can be used for Enterprise Information, Banking and Finance, Universities, Airlines and Telecommunication so on."

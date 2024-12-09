@@ -23,5 +23,55 @@
         "id" : 5,
         "question" : "Can select clause in sql contain arithmetic expressions like '+', '-' or '/'?",
         "groudTruth" : "Yes. the artihmetic expressions with select clause let constant or attributes of tuples be operated."
+    },
+    {
+        "id" : 6,
+        "question" : "What is difference betwwen 'drop table' and 'delete from table' query?",
+        "groudTruth" : "We can use the delete command to delete tuples from a relation. The command would delete all tuples from the relation. To remove a relation from an SQL database, we use the drop table command. The drop table command deletes all information about the dropped relation from the database."
+    },
+    {
+        "id" : 7,
+        "question" : "which command can we use to insert new attributes in relation?",
+        "groudTruth" : "We use the alter table command to add attributes to an existing relation. All tuples in the relation are assigned null as the value for the new attribute."
+    },
+    {
+        "id" : 8,
+        "question" : "In the case that we want to eliminate duplicates from select operation, which keyword should be applied with?",
+        "groudTruth" : "In those cases where we want to force the elimination of duplicates, we insert the keyword distinct after select"
+    },
+    {
+        "id" : 9,
+        "question" : "Do we have to use 'all' keyword to see the result with duplicates not removed?",
+        "groudTruth" : "Since duplicate retention is the default, we shall not use all in our examples."
+    },
+    {
+        "id" : 10,
+        "question" : "If the user wants to get a name of instructors who belongs to 'Comp.sci' department, which query should be implemented? The instructor table has 3 attributes name, department, and salary.",
+        "groudTruth" : "To filter results with condition, we can use 'where' keywords. 'select name from instructors where department='Comp.sci' is desirable."
+    },
+    {
+        "id" : 11,
+        "question" : "What does 'null' mean in SQL?",
+        "groudTruth" : "SQL handles queries on relations containing null values by adding the truth value “unknown” to the usual truth values of true and false."
+    },
+    {
+        "id" : 12,
+        "question" : "What is scalar subqueries?",
+        "groudTruth" : "SQL allows subqueries to occur wherever an expression returning a value is permitted, provided the subquery returns only one tuple containing a single attribute; such subqueries are called scalar subqueries."
+    },
+    {
+        "id" : 13,
+        "question" : "Is condition in 'having' clause applied to a sinlge tuple?",
+        "groudTruth" : "No. The condition does not apply to a single tuple; rather, it applies to each group constructed by the group by clause. SQL applies predicates in the having clause after groups have been formed, so aggregate functions may be used."
+    },
+    {
+        "id" : 14,
+        "question" : "Can 'having' clause present the attributes which do not appear in 'group by' clause?",
+        "groudTruth" : "No. Any attribute that is present in the having clause without being aggregated must appear in the group by clause, otherwise the query is treated as erroneous"
+    },
+    {
+        "id" : 15,
+        "question" : "Does 'count(*)' query ignore null values? How about other aggregate functions?",
+        "groudTruth" : "In general, aggregate functions treat nulls according to the following rule: All aggregate functions except count (*) ignore null values in their input collection. As a result of null values being ignored, the collection of values may be empty."
     }
 ]
