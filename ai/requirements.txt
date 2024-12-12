@@ -1,0 +1,10 @@
+chromadb==0.5.3
+langchain==0.2.6
+openai==1.35.7
+langchain-chroma==0.1.2
+langchain-community==0.2.6
+langchain-openai==0.1.19
+langchainhub==0.1.20
+python-dotenv==1.0.1
+pandas==2.2.2
+pypdf==5.0.1
