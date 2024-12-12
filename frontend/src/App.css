@@ -1,0 +1,87 @@
+/* Tailwind Base */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global Styles */
+:root {
+  line-height: 1.5;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+
+  /* 지원하는 색상 스키마 설정: 라이트 모드와 다크 모드 */
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87); /* 다크 모드 기본 텍스트 색상 */
+  background-color: #242424; /* 다크 모드 기본 배경 색상 */
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* 링크 스타일 */
+a {
+  font-weight: 500;
+  text-decoration: inherit;
+}
+
+/* 전역 레이아웃 설정 */
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+}
+
+body {
+  display: flex;
+  place-items: center; /* 콘텐츠를 화면 중앙에 배치 */
+  min-width: 320px;
+  min-height: 100vh; /* 화면의 최소 높이를 100vh로 설정 */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  max-width: none;
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow: auto; /* #root 내에서 내용이 넘치면 스크롤 */
+}
+
+/* 버튼 스타일 */
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a; /* 다크 모드 기본 버튼 배경 */
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color; /* 포커스 시 스타일 */
+}
+
+/* 미디어 쿼리: 라이트 모드 */
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff; /* 라이트 모드 배경 */
+  }
+
+  button {
+    background-color: #f9f9f9; /* 라이트 모드 버튼 배경 */
+  }
+}
